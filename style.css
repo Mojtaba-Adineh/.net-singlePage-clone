@@ -1,0 +1,147 @@
+.header{
+    background-color:#7014e8 ;
+}
+
+.second-section{
+    background-color: #f0f0f0;
+}
+
+.second-section .container ul{
+    margin: 0;
+    padding: 0;
+}
+
+.second-section .container li{
+    margin-top: 1rem;
+    margin-left: 20px;
+
+}
+
+.second-section .container .btn{
+    color: #512bd4;
+    border-color: #512bd4;
+    font-weight: 500;
+}
+
+.second-section .container .btn:hover{
+    color: #512bd4;
+    background-color:  #efeaff;
+}
+
+.the-grid-section{
+    background-color: #f0f0f0;
+}
+
+.the-grid-section .heading-one{
+    font-size: 32px;
+}
+
+.the-grid-section .heading-text{
+    font-size: 15px;
+}
+
+.the-grid-section .grid-items{
+    border: 1px solid #c8c8c8;
+}
+
+.the-grid-section .grid-items:hover{
+    border-color: #512bd4;
+}
+
+.the-grid-section h3{
+    color:#512bd4;
+    font-size: 24px;
+}
+
+.the-grid-section p{
+    font-size: 15px;
+}
+
+.grid-items .icons{
+    color: #512bd4;
+    font-size: 48px;
+}
+
+.the-grid-section .col{
+    padding: 4px;
+}
+
+.purple-footer{
+    background-color: #512bd4;
+}
+
+.purple-footer .heading-3{
+    font-size: 24px;
+}
+
+.purple-footer .col-1-text{
+    font-size: 15px;
+}
+
+.purple-footer .col-2-text{
+    font-size: 12px;
+}
+
+.purple-footer .col .button{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 0;
+    color: #512bd4;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+
+.purple-footer .col .button:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.social-media{
+    width: 250px;
+}
+
+.social-media .ul{
+    list-style: none;
+}
+
+.social-media .ul a i{
+    font-size: 24px;
+    margin:10px;
+    color: black;
+    padding-top: 5px;
+}
+
+.footer{
+    background-color: #f2f2f2;
+}
+
+.footer form{
+    font-size: 15px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+@media only screen and (max-width:1400px) {
+    .footer ul{   
+        flex-wrap: wrap;
+    }
+}
+
+.footer ul li a{
+    color: #616161;
+    text-decoration: none;
+}
+
+.footer li {
+    font-size: 11px;
+    white-space: nowrap;
+    margin: 0 0.8rem;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
